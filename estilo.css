@@ -1,25 +1,77 @@
 @import url('https://fonts.cdnfonts.com/css/elowen');
+@import url('https://fonts.cdnfonts.com/css/kodchasan');
+                
 h1{
-    font-family: 'Elowen', sans-serif;
+    font-family: 'Elowen', sans-serif ;
+    color: #AF6E31;
     text-align: center;
-    color: #af6e31;
 }
 body{
     background-color: #fef8cd;
     margin: 0;
 }
 .logo{
-    width:100% ;
+    width: 100%;
 }
 div{
+    background-color: white;
     width: 75%;
     padding: 5%;
-    background-color: white;
     margin: 0 auto;
     border-radius: 15px;
-    /* border: 2px solid black; */
-    box-shadow: 0 2px 11px #f8db00;
+    box-shadow: 0 2px 20px #e9e4c4;
+
 }
 p{
-    margin-bottom: 8%;
+    margin-bottom: 8%; 
+    font-family: 'Kodchasan', sans-serif;
+    font-family: 'Kodchasan ExtraLight', sans-serif;
+    font-family: 'Kodchasan Light', sans-serif;
+    font-family: 'Kodchasan Medium', sans-serif;
+    font-family: 'Kodchasan SemiBold', sans-serif;
+                                                 
 }
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+    gap: 20px;
+    max-width: 900px;
+    box-shadow: unset;
+    padding: unset;
+    background-color: unset;
+}
+.card{
+    background-color: #a86830;
+    color: white;
+    padding: 30px 20px;
+    border-radius: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: transform 0.2s ease-in-out;
+}
+.card:hover{
+    transform: scale(1.05);
+}
+.card img{
+    width: 70px;
+    max-width: 100%;
+    margin-bottom: 15px;
+}
+.marrom{
+    width: 75%;
+    padding: 5%;
+    background-color: #B4762D;
+    margin: 0 auto;
+    border-radius: 15px;
+    /* border: 2px black; */
+    color: #fff;
+}
+
+
+
+
+
